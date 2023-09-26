@@ -23,3 +23,19 @@ mv external_ip /usr/local/bin/external_ip
 
 ### To run type
 external_ip
+
+### Example output (without debug)
+```
+/usr/local/bin/external_ip
+142.151.125.127:57607
+```
+
+### Example output (with debug)
+```
+/usr/local/bin/external_ip
+[DEBUG]: Connecting using: index=0, address=74.125.24.127, port=3478
+[DEBUG]: Connected to 74.125.24.127:3478
+[DEBUG]: Successfully send bind packet
+142.151.125.127:57607
+```
+
