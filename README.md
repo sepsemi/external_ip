@@ -18,4 +18,8 @@ gcc main.c -o external_ip;
 #### With debug
 gcc main.c -DDEBUG -o external_ip;
 
+### Move it to the local bin directory to make it system wide.
 mv external_ip /usr/local/bin/external_ip
+
+### To run type
+external_ip
